@@ -1,4 +1,6 @@
 from wordsegment import load, segment
+
+load()
 def getSentence(word):
   swap_out = []
   s = ""
