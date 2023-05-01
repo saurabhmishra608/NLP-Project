@@ -47,13 +47,12 @@ def videoProcess(videoPath, outputPath, cnnPath,network = "normal",device = 0,si
     vc = cv2.VideoCapture(video_path)
 
     # Initialize VideoWriter
-    print("starting videowriter")
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     #video_output = '/home/saurabh/dig_path/RISE_CAM16/yolo-hand-detection-master/output_video.avi'
     video_output = outputPath
     out = cv2.VideoWriter(video_output, fourcc, 20.0, (int(vc.get(3)), int(vc.get(4))))
     length = int(vc.get(cv2.CAP_PROP_FRAME_COUNT))
-    print( "len = ",length )
+   
 
 
     model=Classifier()
