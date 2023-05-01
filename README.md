@@ -7,6 +7,7 @@ Note: In the model's folder, we have only included weights of yolo tiny-prn mode
 ```python
 python run.py PATH/TO/INPUT/VIDEO
 ```
+You can use [this](https://drive.google.com/file/d/1tB-23v3dkBgDhRQcIWcMcraodHiUzFVv/view?usp=share_link) as an input video.
 
 ## Output video
 We made a demo video with American Sign Language spelling out "PLAY U" where "U" is the name of the song. The output video of the same is [here](https://drive.google.com/file/d/1x5mg3tsK8n6NVkT9RgsXvXvLXi41D4RM/view?usp=share_link).
