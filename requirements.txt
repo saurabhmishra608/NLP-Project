@@ -2,3 +2,8 @@ opencv-python
 opencv-contrib-python
 numpy
 wordsegment
+transformers
+torch==1.11.0
+seaborn
+torchvision
+
