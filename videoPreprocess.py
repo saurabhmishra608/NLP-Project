@@ -166,7 +166,4 @@ def videoProcess(videoPath, outputPath, cnnPath,network = "normal",device = 0,si
     vc.release()
     return text
 
-outputPath = '/home/saurabh/dig_path/RISE_CAM16/yolo-hand-detection-master/output_video.avi'
-videoPath = '/home/saurabh/dig_path/RISE_CAM16/yolo-hand-detection-master/input.mp4'
-cnnPath = '/home/saurabh/dig_path/RISE_CAM16/yolo-hand-detection-master/models/hand_rec2.pt'
-videoProcess(videoPath, outputPath, cnnPath,network = "prn",device = 0,size = 416,confidence = 0.2,hands = 1)
+
