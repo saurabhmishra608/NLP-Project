@@ -1,5 +1,5 @@
 # NLP-Project
-Note: In the models' folder, we have only included weights of yolo tiny-prn model and CNN weights. To download the weights of pretrained RoBERTa, refer to [this](https://drive.google.com/drive/folders/1fRx24ILSQI0qpHkqyHfU98XJLOw1UJEL?usp=share_link) link and download BERT.pt. Keep it in models folder
+Note: In the models' folder, we have only included weights of yolo tiny-prn model and CNN weights. To download the weights of pretrained RoBERTa, refer to [this](https://drive.google.com/drive/folders/1fRx24ILSQI0qpHkqyHfU98XJLOw1UJEL?usp=share_link) link and download BERT.pt. Keep it in models folder.
 
 ## Steps to run
 1. Install the required libraries given in requirement.txt
